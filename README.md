@@ -1,5 +1,7 @@
 # Portfolio Orphee Lie LOUMANISSA
 
+par **Aristote Cleven BABA**
+
 Developpeur Web Backend - Portfolio personnel
 
 ## A propos
@@ -30,3 +32,7 @@ Compatible GitHub Pages. Ouvrir index.html dans un navigateur.
 ## Formation
 
 Akieni Academie, Cohorte 2
+
+## Auteur
+
+Concu et developpe par **BABA Aristote Cleven** - 2026
