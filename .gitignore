@@ -1,0 +1,10 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# DS Store
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
