@@ -1,19 +1,17 @@
-# Portfolio Orphee Lie LOUMANISSA
+# Portfolio Aristote Cleven BABA
 
-par **Aristote Cleven BABA**
 
 Developpeur Web Backend - Portfolio personnel
 
 ## A propos
 
-Portfolio professionnel presentant le profil, les competences, les projets et l'experience de Orphee Lie LOUMANISSA, developpeur backend specialise en API, Symfony, Laravel et Golang.
+Portfolio professionnel presentant le profil, les competences, les projets et l'experience de Aristote Cleven BABA, developpeur backend specialise en API, Symfony, Laravel et Golang.
 
 ## Stack
 
 - HTML5
 - CSS3 (design system Apple-like)
-- JavaScript (vanilla + GSAP)
-- Canvas API (particules)
+
 
 ## Sections
 
