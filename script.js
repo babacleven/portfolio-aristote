@@ -312,3 +312,39 @@ function typewrite() {
   }
 }
 setTimeout(typewrite, 2400);
+
+/* DARK MODE TOGGLE */
+(function () {
+  var toggle = document.getElementById("theme-toggle");
+  var stored = localStorage.getItem("theme");
+  if (stored) {
+    document.documentElement.setAttribute("data-theme", stored);
+  } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+  toggle.addEventListener("click", function () {
+    var current = document.documentElement.getAttribute("data-theme");
+    var next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+  });
+})();
+
+/* NEWSLETTER FORM */
+(function () {
+  var form = document.getElementById("newsletter-form");
+  var msg = document.getElementById("newsletter-msg");
+  if (!form) return;
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = form.querySelector("input[type='email']");
+    if (!email || !email.value) {
+      msg.textContent = "Veuillez entrer votre email.";
+      msg.style.color = "#FF3B30";
+      return;
+    }
+    msg.textContent = "Merci ! Vous serez notifie des prochains projets.";
+    msg.style.color = "#34C759";
+    email.value = "";
+  });
+})();
